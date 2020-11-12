@@ -22,3 +22,13 @@ enter a number:4
 ****
 
 """
+
+number=(input("Enter a number:").strip())
+num=int(number)
+for i in range(0,num):
+    print("*",end="")
+    
+    
+
+
+    

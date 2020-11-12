@@ -36,7 +36,7 @@ you need to use the command "pass"
 
 example:
 
-for i in range(3,5):
+for i in range(3,20):
     pass
 print("All done!")
 

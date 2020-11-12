@@ -26,3 +26,10 @@ example:
 Enter a number: 4
 4! is 24
 """
+number=""
+count=0
+number=(input("Enter a number:")
+a=int(number)
+for count in range(0,a):
+    x=number*count
+    print(x)

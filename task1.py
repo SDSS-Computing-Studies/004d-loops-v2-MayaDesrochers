@@ -17,3 +17,11 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+number = ""
+count=0
+number =(input("Enter number:")).strip()
+number=int(number)
+
+for count in range(1,13):
+    print(number*count, end=" ")
