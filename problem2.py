@@ -26,10 +26,13 @@ example:
 Enter a number: 4
 4! is 24
 """
-number=""
-count=0
-number=(input("Enter a number:")
-a=int(number)
-for count in range(0,a):
-    x=number*count
-    print(x)
+number=input("Enter number:")
+
+number=int(number)
+count=1
+for i in range (1,number+1):
+    count=count*i
+    
+ 
+
+print(""+str(number)+"!"+" "+"is"+" "+str(count)+"")
