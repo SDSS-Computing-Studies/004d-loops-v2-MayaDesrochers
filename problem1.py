@@ -22,11 +22,12 @@ enter a number:4
 ****
 
 """
-
-number=(input("Enter a number:").strip())
-num=int(number)
-for i in range(0,num):
-    print("*",end="")
+rows=(input("Enter a number:").strip())
+rows=int(rows)
+for i in range(1,rows+1):
+    for i in range(1,rows+1):
+        print("*",end="")
+    print()
     
     
 
